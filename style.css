@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    border-radius: 30px;
+    padding: 0 20px;
+    margin: 12px;
+    margin-inline: 5vw;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 238, 255)
+}
+.port{
+    padding: 10px;
+    font-size: 2vw;
+    font-family: 'DM Sans', sans-serif;
+}
+.logo img{
+    width: 1.8vw;
+    padding: 10px;
+}
+.tab li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.3vw;
+    font-family: 'Poppins', sans-serif;
+}
+.tab ul{
+    display: flex;
+}
+
+.main{
+    margin: 20px;
+    margin-inline: 5vw;
+    height: 80vh;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.534);
+}
+.info{
+    margin: 16vw 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info div{
+    padding: 7px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.img img{
+    padding: 5vh 5vw;
+    height:60vh;
+    padding-left: 0;
+}
+.hello{
+    font-size: 3vw;
+}
+.name{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.5vw;
+    color: blue;
+}
+.desc{
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+}
+.about{
+    font-size: 2vw;
+}
+.button button{
+    font-size: 2vh;
+    background-color: rgba(0, 0, 189, 0.616);
+    color: rgb(255, 255, 255);
+    border-radius: 2.5vw;
+    padding: 1.5vh;
+    padding-inline: 3vh;
+}
